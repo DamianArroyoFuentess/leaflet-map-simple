@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [28.018 -81.945], // EDITed coordinates to re-center map
+    center: [28.0178, -81.945], // EDITed coordinates to re-center map
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
@@ -40,7 +40,7 @@
 }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([28.018 -81.945]).addTo(map) // coordinates to Lake Hollingsworth
+  L.marker([28.0178, -81.945]).addTo(map) // coordinates to Lake Hollingsworth
   .bindPopup("Cool lake in Lakeland"); // EDIT pop-up text message
 
   </script>
